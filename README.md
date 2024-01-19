@@ -1,18 +1,19 @@
 # Are these good user stories to use for automated tests?
 
-## 1. **Title**: It Returns the integer value as a string
-### **Description**: As a student I want to enter an integer and have it return the integer as a string so that I can win the game.
+## 1. **Title**: Integer greater than 1 returns 1 as a string​
+### **Description**: As a student I want to enter an integer greater than 1 and have it return the integer as a string so that I can win the game.​
 ### **AC 1**: When 1 is given to the program then “1” is returned
 ### **AC 2**:  When 2 is given to the program then “2” is returned
 
 ## 2. **Title**: Integer evenly divisible by 3 returns "Fizz"
-### **Description**: As a student I want it to return "Fizz" when I enter an integer that is evenly divisible by 3 so that I can win the game.
-### **AC 1**: When 3 is given to the program then “Fizz” is returned
-### **AC 2**: When 6 is given to the program then “Fizz” is returned
+### **Description**: As a student I want to enter an integer that is evenly divisible by 3 so that it returns “Fizz”.​
+### **AC 1**: When 3 is given to the program then “Fizz” is returned​
 
-## 3. **Description**: As a student I want to enter an integer that is evenly divisible by 5 so that it returns “Buzz”.
+## 3. **Title**:
+### **Description**: As a student I want to enter an integer that is evenly divisible by 5 so that it returns “Buzz”.
 
-## 4. ****Title****: As a student I want to enter an integer that is evenly divisible by 15 so that it returns “FizzBuzz”.
+## 4. ****Title****: As a student I want to enter an integer that is evenly divisible by 15 so that it returns “FizzBuzz”.​
+### **Description**:
 ### **AC 1**: When 30 is given to the program then “FizzBuzz” is returned
 # 
 #
