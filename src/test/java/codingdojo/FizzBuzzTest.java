@@ -7,17 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    public void Test_Assertion()
-    {
-        assertEquals("1", "1");
-    }
-
-    @Test
     public void When_1_is_given_to_the_program_then_1_is_returned()
     {
         FizzBuzz fizzbuzz = new FizzBuzz();
 
-        assertEquals(fizzbuzz.get(1), "1");
+        assertEquals("1", fizzbuzz.get(1));
     }
 
     @Test
@@ -25,14 +19,22 @@ public class FizzBuzzTest {
     {
         FizzBuzz fizzbuzz = new FizzBuzz();
 
-        assertEquals(fizzbuzz.get(2), "2");
+        assertEquals("2", fizzbuzz.get(2));
     }
-    
+
     @Test
     public void When_3_is_given_to_the_program_then_Fizz_is_returned()
     {
         FizzBuzz fizzbuzz = new FizzBuzz();
 
-        assertEquals(fizzbuzz.get(3), "Fizz");
+        assertEquals("Fizz", fizzbuzz.get(3));
+    }
+
+    @Test
+    public void When_6_is_given_to_the_program_then_Fizz_is_returned()
+    {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+
+        assertEquals("Fizz", fizzbuzz.get(6));
     }
 }
