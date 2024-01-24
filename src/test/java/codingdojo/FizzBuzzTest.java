@@ -11,5 +11,10 @@ public class FizzBuzzTest {
     {
         assertEquals("1", "1");
     }   
-   
+    
+    @Test
+    public void When_1_is_given_to_the_program_then_1_is_returned()
+    {
+        assertEquals(fizzbuzz.get(1), "1");
+    }   
 }
