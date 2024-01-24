@@ -1,4 +1,4 @@
-# Are these good user stories to use for automated tests?
+# Are these good user stories to use?
 ##
 ## 1. **Title**: Integer greater than 1 returns 1 as a string​
 ### **Description**: As a student I want to enter an integer greater than 1 and have it return the integer as a string so that I can win the game.​
