@@ -53,4 +53,12 @@ public class FizzBuzzTest {
 
         assertEquals("Buzz", fizzbuzz.get(10));
     }
+    
+    @Test
+    public void When_15_is_given_to_the_program_then_FizzBuzz_is_returned()
+    {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+
+        assertEquals("FizzBuzz", fizzbuzz.get(15));
+    }
 }
